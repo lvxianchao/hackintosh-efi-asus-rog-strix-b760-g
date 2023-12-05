@@ -145,6 +145,15 @@
 						DgAAAA==
 						</data>
 					</dict>
+					<key>PRT1</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>9</integer>
+						<key>port</key>
+						<data>
+						GAAAAA==
+						</data>
+					</dict>
 					<key>SS01</key>
 					<dict>
 						<key>UsbConnector</key>
@@ -164,15 +173,6 @@
 						</data>
 					</dict>
 					<key>SS03</key>
-					<dict>
-						<key>UsbConnector</key>
-						<integer>9</integer>
-						<key>port</key>
-						<data>
-						GAAAAA==
-						</data>
-					</dict>
-					<key>SS04</key>
 					<dict>
 						<key>UsbConnector</key>
 						<integer>255</integer>
