@@ -42,7 +42,7 @@
 			<dict>
 				<key>port-count</key>
 				<data>
-				GQAAAA==
+				GAAAAA==
 				</data>
 				<key>ports</key>
 				<dict>
@@ -145,15 +145,6 @@
 						DgAAAA==
 						</data>
 					</dict>
-					<key>PRT1</key>
-					<dict>
-						<key>UsbConnector</key>
-						<integer>9</integer>
-						<key>port</key>
-						<data>
-						GAAAAA==
-						</data>
-					</dict>
 					<key>SS01</key>
 					<dict>
 						<key>UsbConnector</key>
@@ -175,10 +166,10 @@
 					<key>SS03</key>
 					<dict>
 						<key>UsbConnector</key>
-						<integer>255</integer>
+						<integer>9</integer>
 						<key>port</key>
 						<data>
-						GQAAAA==
+						GAAAAA==
 						</data>
 					</dict>
 				</dict>
