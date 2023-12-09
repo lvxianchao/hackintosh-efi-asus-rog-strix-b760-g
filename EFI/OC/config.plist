@@ -522,7 +522,7 @@
             <key>Quirks</key>
             <dict>
                 <key>AppleCpuPmCfgLock</key>
-                <true/>
+                <false/>
                 <key>AppleXcpmCfgLock</key>
                 <true/>
                 <key>AppleXcpmExtraMsrs</key>
@@ -764,6 +764,8 @@
                 <dict>
                     <key>revcpu</key>
                     <integer>1</integer>
+                    <key>revpatch</key>
+                    <string>auto,sbvmm</string>
                     <key>rtc-blacklist</key>
                     <data></data>
                     <key>run-efi-updater</key>
