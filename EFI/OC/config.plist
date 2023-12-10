@@ -140,7 +140,7 @@
                 <key>NormalizeHeaders</key>
                 <false/>
                 <key>RebaseRegions</key>
-                <false/>
+                <true/>
                 <key>ResetHwSig</key>
                 <false/>
                 <key>ResetLogoStatus</key>
@@ -397,6 +397,42 @@
                     <true/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/CpuTopologyRebuild</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
+                    <string>CPUFriend.kext</string>
+                    <key>Comment</key>
+                    <string>V1.2.7</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/CPUFriend</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
+                    <string>CPUFriendDataProvider.kext</string>
+                    <key>Comment</key>
+                    <string>V1.0.1</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string></string>
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>
@@ -924,13 +960,43 @@
                     <key>Skip</key>
                     <integer>0</integer>
                 </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>Base</key>
+                    <string>_cpu_thread_alloc</string>
+                    <key>Comment</key>
+                    <string>force HT enabled for Mojave or later</string>
+                    <key>Count</key>
+                    <integer>1</integer>
+                    <key>Enabled</key>
+                    <false/>
+                    <key>Find</key>
+                    <data>i4iUAQAA</data>
+                    <key>Identifier</key>
+                    <string>kernel</string>
+                    <key>Limit</key>
+                    <integer>0</integer>
+                    <key>Mask</key>
+                    <data></data>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string>18.0.0</string>
+                    <key>Replace</key>
+                    <data>uf8AAACQ</data>
+                    <key>ReplaceMask</key>
+                    <data></data>
+                    <key>Skip</key>
+                    <integer>0</integer>
+                </dict>
             </array>
             <key>Quirks</key>
             <dict>
                 <key>AppleCpuPmCfgLock</key>
                 <false/>
                 <key>AppleXcpmCfgLock</key>
-                <true/>
+                <false/>
                 <key>AppleXcpmExtraMsrs</key>
                 <false/>
                 <key>AppleXcpmForceBoost</key>
@@ -1205,7 +1271,7 @@
                     <key>SystemAudioVolume</key>
                     <data>Rg==</data>
                     <key>boot-args</key>
-                    <string>-v keepsyms=1 debug=0x100 agdpmod=pikera</string>
+                    <string>keepsyms=1 debug=0x100 agdpmod=pikera</string>
                     <key>csr-active-config</key>
                     <data>AAAAAA==</data>
                     <key>prev-lang:kbd</key>
