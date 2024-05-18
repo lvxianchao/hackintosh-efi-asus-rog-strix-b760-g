@@ -2,3 +2,4 @@
 .*
 !.gitignore
 oldConfig.plist
+EFI/APPLE

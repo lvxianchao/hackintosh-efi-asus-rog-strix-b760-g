@@ -38,14 +38,6 @@
                     <key>Path</key>
                     <string>SSDT-PLUG-ALT.aml</string>
                 </dict>
-                <dict>
-                    <key>Comment</key>
-                    <string>SSDT-USB-Reset.aml</string>
-                    <key>Enabled</key>
-                    <false/>
-                    <key>Path</key>
-                    <string>SSDT-USB-Reset.aml</string>
-                </dict>
             </array>
             <key>Delete</key>
             <array>
@@ -1162,7 +1154,7 @@
                 <key>ScanPolicy</key>
                 <integer>0</integer>
                 <key>SecureBootModel</key>
-                <string>Default</string>
+                <string>Disabled</string>
                 <key>Vault</key>
                 <string>Optional</string>
             </dict>
