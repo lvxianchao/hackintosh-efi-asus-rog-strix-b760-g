@@ -414,7 +414,7 @@
                     <key>Comment</key>
                     <string>V2.0.2 | CpuTopologyRebuild.kext</string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/CpuTopologyRebuild</string>
                     <key>MaxKernel</key>
